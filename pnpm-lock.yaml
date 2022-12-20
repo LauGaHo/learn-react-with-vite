@@ -7,12 +7,14 @@ specifiers:
   antd: ^5.0.7
   react: ^18.2.0
   react-dom: ^18.2.0
+  redux: ^4.2.0
   vite: ^3.1.0
 
 dependencies:
   antd: 5.0.7_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  redux: 4.2.0
 
 devDependencies:
   '@types/react': 18.0.21
@@ -1544,6 +1546,12 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /redux/4.2.0:
+    resolution: {integrity: sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==}
+    dependencies:
+      '@babel/runtime': 7.20.6
     dev: false
 
   /regenerator-runtime/0.13.11:
